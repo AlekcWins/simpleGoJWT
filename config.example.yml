@@ -1,0 +1,14 @@
+---
+is_debug: true
+listen:
+  host: <host for app, if db not auth can be remove this tag>
+  port: <port for app, if db not auth can be remove this tag>
+mongodb:
+  host: <database host>
+  port: <database port>
+  database: <database name>
+  auth_db: <user auth_db, if db not auth can be remove this tag>
+  username: <user username, if db not auth can be remove this tag>
+  password: <user password, if db not auth can be remove this tag>
+jwt:
+  secret_key_jwt: <Your secret key>
